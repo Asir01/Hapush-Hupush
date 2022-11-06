@@ -1,7 +1,6 @@
 body {
     margin: 0%;
     padding: 0%;
-
 }
 
 section {
@@ -28,13 +27,11 @@ section {
     top: 0px;
     display: flex;
     justify-content: space-around;
-
     align-items: center;
     background: linear-gradient(180deg, rgba(6, 0, 0, 0.25) 41.91%, rgba(6, 0, 0, 0) 100%);
 }
 
 .header a {
-
     width: 100px;
     height: 38px;
     left: 688px;
@@ -53,8 +50,6 @@ section {
     display: inline-block;
     margin-right: 53px;
     margin-left: 7px;
-
-
 }
 
 p {
@@ -65,7 +60,6 @@ p {
     border-radius: 15px;
     padding: 5px 10px;
 }
-
 
 .logo {
     position: absolute;
@@ -79,10 +73,10 @@ p {
 .enter-container {
     position: absolute;
     width: 100%;
-    height: 300px;
+    height: 255px;
     top: 1020px;
-    /* background: url('./images/Rectangle 3-1.png'); */
-    background: rgba(34, 23, 34, 0.85);
+    background: url('./images/Rectangle\ 16.png');
+    /* background: rgba(34, 23, 34, 0.85); */
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -103,14 +97,12 @@ p {
     border-radius: 15px;
     border: 5px solid #FD5811;
     box-sizing: border-box;
-
 }
-
 
 .card-container {
     text-align: center;
-    background-image: url('./images/Rectangle\ 3.png');
-    background: linear-gradient(107.6deg, #661566 0.33%, rgba(7, 0, 7, 0) 98.77%);
+    background-image: url('./images/skye-01\ 1.png');
+    /* background: linear-gradient(107.6deg, #661566 0.33%, rgba(7, 0, 7, 0) 98.77%); */
     background-size: cover;
     height: 1080px;
     width: 100%;
@@ -118,11 +110,9 @@ p {
     position: absolute;
     left: 0px;
     top: 1270px;
-    background: linear-gradient(107.6deg, #7A1F7A 0.33%, rgba(7, 0, 7, 0) 98.77%);
+    /* background: linear-gradient(107.6deg, #7A1F7A 0.33%, rgba(7, 0, 7, 0) 98.77%); */
     mix-blend-mode: multiply;
 }
-
-
 
 .running-btn {
     margin-top: 140px;
@@ -149,7 +139,6 @@ p {
     margin: 60px auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
 }
 
 .card {
@@ -198,13 +187,15 @@ p {
 }
 
 .address-container {
+    background-image: url('./images/Rectangle\ 18.png');
     position: absolute;
+    background-repeat: no-repeat;
     width: 100%;
     height: 300px;
     left: 0px;
-    top: 2650px;
+    top: 2600px;
     text-align: center;
-    background: radial-gradient(49.31% 155.47% at 49.19% 50.69%, #7A1F7A 0%, rgba(7, 0, 7, 0) 100%)
-        /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+    /* background: radial-gradient(49.31% 155.47% at 49.19% 50.69%, #7A1F7A 0%, rgba(7, 0, 7, 0) 100%) */
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
     ;
 }
